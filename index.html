@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="src/assets/tailwind.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <title>Vite App</title>
+  </head>
+  <body class="bg-light">
+
+    <div class="container p-10">
+      <h2 class="text-3xl text-center font-permanent  text-blue">Simple ToDo</h2>
+      <div class="todo-wrapper shadow p-5 bg-white max-w-[400px] mx-auto my-5 rounded-[10px]">
+        <div class="flex gap-1 tra">
+          <input type="text" class="border border-light px-5 py-2 outline-none focus:border-blue rounded-[md] w-full ">
+          <button class="btn bg-blue text-white px-4 py-2 rounded-md   hover:bg-dark-blue ">Add</button>
+        </div>
+      </div>
+    </div>
+   
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
